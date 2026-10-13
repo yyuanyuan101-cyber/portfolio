@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>史致远 · 个人作品集 | 内容策划 × 媒体运营 × 现场执行</title>
+<meta name="description" content="史致远个人作品集——熟练把控策划、筹备、现场执行及复盘的内容人。央视综艺、优酷盛典、夏季达沃斯、网易有道直播运营。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="史致远 · 个人作品集">
+<meta property="og:description" content="用户理解 × 内容创作力 × 项目执行力 ｜ 央视综艺 · 优酷盛典 · 夏季达沃斯 · 网易有道">
+<meta name="theme-color" content="#C8552C">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%23FAF1E3'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='%23C8552C' font-family='SimSun,serif' font-weight='bold'%3E史%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ======================= 粒子汇聚开场 ======================= -->
+<div id="intro" aria-hidden="true">
+  <canvas id="intro-canvas"></canvas>
+  <div class="intro-caption">
+    <span class="intro-en">PORTFOLIO</span>
+    <span class="intro-cn">你好，我是史致远</span>
+  </div>
+  <button id="intro-skip" type="button">跳过开场 →</button>
+</div>
+
+<div id="progress-bar"></div>
+
+<!-- ======================= 导航 ======================= -->
+<nav id="nav">
+  <a class="nav-logo" href="#hero"><span class="logo-seal">史</span><span class="logo-text">史致远<i>·作品集</i></span></a>
+  <div class="nav-links">
+    <a href="#about" data-nav="about">关于我</a>
+    <a href="#work" data-nav="work">工作经历</a>
+    <a href="#projects" data-nav="projects">项目经验</a>
+    <a href="#skills" data-nav="skills">技能树</a>
+    <a href="#contact" data-nav="contact">联系我</a>
+  </div>
+  <a class="nav-cta" href="#contact">合作联系</a>
+</nav>
+
+<main>
+<!-- ======================= 1. HERO ======================= -->
+<section id="hero">
+  <div class="wm wm-yellow" data-parallax="0.18" aria-hidden="true">Portfolio</div>
+  <svg class="squiggle sq-hero" data-parallax="0.08" viewBox="0 0 300 120" aria-hidden="true"><path d="M6 90 C 50 10, 90 130, 140 60 S 240 10, 294 70" fill="none" stroke="#F6C944" stroke-width="9" stroke-linecap="round"/></svg>
+  <i class="confetti c-dot" style="top:16%;left:6%;background:#9DBB9A" aria-hidden="true"></i>
+  <i class="confetti c-dia" style="top:70%;left:44%;background:#7FA8C9" aria-hidden="true"></i>
+  <i class="confetti c-dot" style="top:24%;left:88%;background:#EF8A7A" aria-hidden="true"></i>
+  <i class="confetti c-dia" style="top:82%;left:8%;background:#F6C944" aria-hidden="true"></i>
+
+  <div class="hero-inner wrap">
+    <div class="hero-copy">
+      <p class="hero-eyebrow anim-up" style="--d:.05s">PERSONAL PORTFOLIO <b>2026</b></p>
+      <h1 class="hero-name anim-up" style="--d:.15s">史致远</h1>
+      <p class="hero-position anim-up" style="--d:.28s">用户理解 <span class="x">×</span> 内容创作力 <span class="x">×</span> 项目执行力</p>
+      <p class="hero-tagline anim-up" style="--d:.38s">把内容从<b>策划</b>做到<b>现场</b>，把活动从<b>筹备</b>做到<b>复盘</b>。</p>
+      <div class="hero-tags anim-up" style="--d:.48s">
+        <span class="tag tag-orange"># 内容策划</span>
+        <span class="tag tag-blue"># 媒体运营</span>
+        <span class="tag tag-green"># 现场执行</span>
+        <span class="tag tag-coral"># 网感UPUP</span>
+      </div>
+      <div class="hero-actions anim-up" style="--d:.58s">
+        <a class="btn btn-primary" href="#projects">查看项目作品</a>
+        <a class="btn btn-ghost" href="#contact">联系我</a>
+      </div>
+    </div>
+    <figure class="hero-photo anim-photo" style="--d:.4s" data-parallax="0.1">
+      <span class="tape tape-1" aria-hidden="true"></span>
+      <span class="tape tape-2" aria-hidden="true"></span>
+      <img src="assets/portrait.jpg" alt="史致远的工作照" width="1138" height="890">
+      <figcaption>Hi ✦ 我是致远，请多指教</figcaption>
+    </figure>
+  </div>
+
+  <div class="hero-stats wrap">
+    <div class="stat anim-up" style="--d:.65s"><b><span data-count="14" data-decimals="0">0</span><i>亿+</i></b><span>全网话题阅读</span></div>
+    <div class="stat anim-up" style="--d:.73s"><b><span data-count="7000">0</span><i>+</i></b><span>达沃斯证件统筹</span></div>
+    <div class="stat anim-up" style="--d:.81s"><b><span data-count="300">0</span><i>w+</i></b><span>内容总阅读量</span></div>
+    <div class="stat anim-up" style="--d:.89s"><b><span data-count="102">0</span><i>%</i></b><span>直播转粉率</span></div>
+  </div>
+  <a class="scroll-hint" href="#about" aria-label="向下滚动"><span></span></a>
+</section>
+
+<!-- ======================= 2. ABOUT ======================= -->
+<section id="about">
+  <div class="wm wm-right" data-parallax="0.14" aria-hidden="true">About Me</div>
+  <i class="confetti c-dia" style="top:12%;left:52%;background:#F6C944" aria-hidden="true"></i>
+  <i class="confetti c-dot" style="top:78%;left:3%;background:#9DBB9A" aria-hidden="true"></i>
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <span class="sec-icon" aria-hidden="true">📖</span>
+      <h2>关于我</h2>
+      <p class="sec-sub">自我介绍 / Self-Introduction</p>
+    </header>
+
+    <div class="about-grid">
+      <div class="about-main">
+        <div class="core-cards">
+          <article class="core-card reveal" style="--d:.05s">
+            <span class="core-num">01</span>
+            <h3>内容创作力 <i>Content Creativity</i></h3>
+            <p>网易新闻、天津电视台一线采编实习，兼具传统媒体素养与新媒体思维；精通新闻稿、短视频脚本与社交媒体推文创作。</p>
+          </article>
+          <article class="core-card reveal" style="--d:.15s">
+            <span class="core-num">02</span>
+            <h3>项目执行力 <i>Project Execution</i></h3>
+            <p>优酷88VIP音乐盛典、央视《笑有新生2》、夏季达沃斯论坛……丰富的大型活动统筹与现场经验，应变力与结果导向兼备。</p>
+          </article>
+          <article class="core-card reveal" style="--d:.25s">
+            <span class="core-num">03</span>
+            <h3>用户理解力 <i>User Insight</i></h3>
+            <p>新闻与传播科班训练 + 直播/账号一手运营数据反馈，懂内容更懂用户，网感在线、复盘闭环。</p>
+          </article>
+        </div>
+
+        <div class="loop-strip reveal" style="--d:.2s" aria-label="全链路工作闭环">
+          <span class="loop-step">策划</span><b>→</b>
+          <span class="loop-step">筹备</span><b>→</b>
+          <span class="loop-step">现场执行</span><b>→</b>
+          <span class="loop-step">复盘</span>
+          <em>全链路闭环管理，确保活动有序高效落地</em>
+        </div>
+
+        <div class="edu-card reveal" style="--d:.25s">
+          <h4>🎓 教育背景</h4>
+          <div class="edu-row">
+            <div>
+              <b>天津财经大学 · 硕士（27届）</b>
+              <span>全日制新闻与传播 ｜ 2025.09 - 2027.06</span>
+            </div>
+            <div>
+              <b>天津财经大学 · 本科</b>
+              <span>广播电视学 ｜ 2021.09 - 2025.06</span>
+            </div>
+          </div>
+          <p class="edu-badges"><span>GPA 3.90 / 4.00</span><span>CET-6</span><span>校级一等奖学金</span><span>中共党员</span></p>
+        </div>
+      </div>
+
+      <aside class="about-side">
+        <figure class="polaroid reveal" style="--d:.1s" data-parallax="0.06">
+          <span class="tape tape-1" aria-hidden="true"></span>
+          <img src="assets/about_portrait.jpg" alt="史致远：辩论赛场上的工作照" width="1000" height="1333">
+          <figcaption>#辩论队领队 的赛场时刻 ✦</figcaption>
+        </figure>
+        <div class="me-card reveal" style="--d:.18s">
+          <h4>ABOUT ME</h4>
+          <ul>
+            <li><span>生日</span>2003 年 8 月</li>
+            <li><span>政治面貌</span>中共党员</li>
+            <li><span>坐标</span>北京 / 天津</li>
+            <li><span>邮箱</span>2545258776@qq.com</li>
+            <li><span>电话·微信</span>13512992132</li>
+          </ul>
+          <div class="me-tags">
+            <span>#infj</span><span>#手帐狂热</span><span>#中国音乐剧爱好者</span><span>#播客收听700+h</span><span>#分享欲旺盛</span><span>#友善心细</span><span>#毛线钩织</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 3. 工作经历 ======================= -->
+<section id="work">
+  <div class="wm wm-yellow wm-right" data-parallax="0.12" aria-hidden="true">Experience</div>
+  <svg class="squiggle sq-work" data-parallax="0.07" viewBox="0 0 300 120" aria-hidden="true"><path d="M6 60 C 60 130, 110 0, 170 70 S 260 110, 294 40" fill="none" stroke="#EF8A7A" stroke-width="8" stroke-linecap="round"/></svg>
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <span class="sec-icon" aria-hidden="true">🗓️</span>
+      <h2>工作经历</h2>
+      <p class="sec-sub">时间线 / Work Timeline</p>
+    </header>
+
+    <ol class="timeline">
+      <li class="tl-item reveal">
+        <div class="tl-dot tl-dot--full" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-top"><span class="tl-time">2026.09 - 2026.11</span><span class="chip chip-orange">品牌正式</span></div>
+          <h3>网之易信息技术（北京）有限公司 <i>有道事业群 · 品牌组</i></h3>
+          <p class="tl-role">内容策划 & 直播运营</p>
+          <ul class="tl-points">
+            <li>常态化直播运营：微信视频号粉丝 <b>20万+</b>、抖音粉丝 <b>3万+</b>，全程跟播并优化节奏</li>
+            <li>场均观看 <b>4万+</b>，场均曝光 <b>30万+</b>，合作主播转粉率高达 <b>102%</b></li>
+            <li>视频脚本、主持人及嘉宾逐字稿创作；竞品调研、剪辑视频、搭建直播 <b>SOP</b></li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item reveal">
+        <div class="tl-dot tl-dot--proj" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-top"><span class="tl-time">2026.08</span><span class="chip chip-yellow">项目制</span></div>
+          <h3>央视（北京）娱乐传媒有限公司 <i>内容三部 · 编导</i></h3>
+          <p class="tl-role">央视综艺《笑有新生 2》内容运营</p>
+          <ul class="tl-points">
+            <li>春晚同一喜剧团队打造的语言类选拔综艺，第一季全网讨论量 <b>14亿+</b></li>
+            <li>前期统筹现场组，后期确认道具台口，保障录制流程顺畅</li>
+            <li>顺利落地喜剧训练营 <b>20+</b> 项喜剧节目，观众展演小获成功</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item reveal">
+        <div class="tl-dot tl-dot--proj" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-top"><span class="tl-time">2026.08</span><span class="chip chip-yellow">项目制</span></div>
+          <h3>优酷 88VIP 超酷音乐盛典 <i>导演组</i></h3>
+          <p class="tl-role">台本撰写 & 现场流程卡点</p>
+          <ul class="tl-points">
+            <li>前期协助台本、主持人逐字稿、游戏环节设计、嘉宾采访提纲撰写</li>
+            <li>执行期与各台口对接台本，<b>15位</b> 艺人、<b>30个</b> 小环节全部顺利完成</li>
+            <li>抢票预约量突破 <b>120万</b>，微博话题阅读量超 <b>8.7亿</b></li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item reveal">
+        <div class="tl-dot tl-dot--intern" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-top"><span class="tl-time">2025.09 - 2026.09</span><span class="chip chip-blue">实习</span></div>
+          <h3>网易新闻天津站 <i>实习记者</i></h3>
+          <p class="tl-role">采编 & 数字内容运营</p>
+          <ul class="tl-points">
+            <li>新闻采集、内容撰写、视频剪辑制作与现场报道的一线采编全流程</li>
+            <li>线下采访结合线上运营，负责公众号、小红书、抖音多账号运营</li>
+            <li><b>AI 赋能</b> 采编流程，经验可直接应用于智能媒体运营</li>
+            <li>代表报道：<a class="tl-link" href="https://c.m.163.com/news/a/KFI784S3042098PG.html" target="_blank" rel="noopener">美丽中国 · 网易新闻现场报道原文 ↗</a></li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item reveal">
+        <div class="tl-dot tl-dot--gov" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-top"><span class="tl-time">2024.05 - 2024.08</span><span class="chip chip-green">政务项目</span></div>
+          <h3>天津市和平区发展和改革委员会 <i>体制改革科</i></h3>
+          <p class="tl-role">产业分析 · 信用与民营经济</p>
+          <ul class="tl-points">
+            <li><b>3个月</b> 项目期深入民营企业一线跟进项目，掌握政务服务全流程</li>
+            <li>定期整理分析数据，周均归集 <b>2000条</b> 合同履约样例</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item reveal">
+        <div class="tl-dot tl-dot--intern" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-top"><span class="tl-time">2023.10 - 2025.06</span><span class="chip chip-blue">实习</span></div>
+          <h3>天津广播电视台 <i>导演组</i></h3>
+          <p class="tl-role">品牌策略 & 内容策划</p>
+          <ul class="tl-points">
+            <li>撰写台本 <b>3万字</b>（逐字稿），具备人物故事提炼与嘉宾人设搭建能力</li>
+            <li>建联 KOL、网红嘉宾与素人嘉宾，策划完整故事线</li>
+            <li>熟悉各台口工作流程，高效对接导演组</li>
+            <li>节目作品合集：<a class="tl-link" href="https://pan.baidu.com/s/1_ttq2E-YLSLxFhPsWBBShQ?pwd=aj27" target="_blank" rel="noopener">百度网盘 ↗</a>（提取码 <b>aj27</b>）</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item reveal">
+        <div class="tl-dot tl-dot--intern" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-top"><span class="tl-time">2023.08 - 2023.10</span><span class="chip chip-blue">实习</span></div>
+          <h3>联合信用征信股份有限公司 <i>社会征信部（base北京）</i></h3>
+          <p class="tl-role">客户对接 & 内容策划</p>
+          <ul class="tl-points">
+            <li>深度跟进北京经信局项目 <b>1个月</b> 至落地，全程参与研讨、进度把控与成果汇报</li>
+            <li>完成广州市花都区「信用高质量发展赋能乡村振兴」等 <b>3份</b> 主要项目材料</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="tl-item reveal">
+        <div class="tl-dot tl-dot--gov" aria-hidden="true"></div>
+        <div class="tl-card">
+          <div class="tl-top"><span class="tl-time">2023.05 - 2023.08</span><span class="chip chip-green">大型会展</span></div>
+          <h3>天津夏季达沃斯论坛筹备办公室 <i>会务手册组</i></h3>
+          <p class="tl-role">会展策划 · 证件统筹</p>
+          <ul class="tl-points">
+            <li>统筹完成 <b>7000+张</b> 证件注册、制作与分发全流程，保障万名嘉宾顺畅通行</li>
+            <li>参与会务手册内容撰写及修订，获多方好评</li>
+            <li>大型国际会展跨部门协作经验，可迁移至会展业务策划与执行</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ======================= 4. 项目经验 ======================= -->
+<section id="projects">
+  <div class="wm wm-right" data-parallax="0.14" aria-hidden="true">Projects</div>
+  <i class="confetti c-dia" style="top:8%;left:8%;background:#EF8A7A" aria-hidden="true"></i>
+  <i class="confetti c-dot" style="top:88%;left:92%;background:#7FA8C9" aria-hidden="true"></i>
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <span class="sec-icon" aria-hidden="true">✨</span>
+      <h2>项目经验</h2>
+      <p class="sec-sub">核心作品 / Key Projects · 点击卡片查看完整复盘</p>
+    </header>
+
+    <div class="proj-grid" id="proj-grid"><!-- JS 渲染 --></div>
+  </div>
+</section>
+
+<!-- ======================= 5. 技能树 ======================= -->
+<section id="skills">
+  <div class="wm wm-yellow wm-right" data-parallax="0.12" aria-hidden="true">Skills</div>
+  <svg class="squiggle sq-skills" data-parallax="0.07" viewBox="0 0 300 120" aria-hidden="true"><path d="M6 70 C 40 20, 80 110, 130 50 S 230 100, 294 30" fill="none" stroke="#F6C944" stroke-width="8" stroke-linecap="round"/></svg>
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <span class="sec-icon" aria-hidden="true">🧰</span>
+      <h2>核心能力 · 技能树</h2>
+      <p class="sec-sub">硬技能 × 软实力 / Skill Tree</p>
+    </header>
+
+    <div class="skills-grid">
+      <div class="skill-col reveal" style="--d:.05s">
+        <h3>硬技能 <i>Hard Skills</i></h3>
+        <div class="bar-row"><span>直播运营</span><div class="bar-track"><div class="bar-fill" style="--w:95%"><b>95%</b></div></div></div>
+        <div class="bar-row"><span>活动策划与执行</span><div class="bar-track"><div class="bar-fill" style="--w:93%"><b>93%</b></div></div></div>
+        <div class="bar-row"><span>内容策划</span><div class="bar-track"><div class="bar-fill" style="--w:92%"><b>92%</b></div></div></div>
+        <div class="bar-row"><span>会展执行</span><div class="bar-track"><div class="bar-fill" style="--w:88%"><b>88%</b></div></div></div>
+        <div class="bar-row"><span>剪映 / PS / 可灵AI</span><div class="bar-track"><div class="bar-fill" style="--w:90%"><b>90%</b></div></div></div>
+        <div class="bar-row"><span>秀米 / 135编辑器</span><div class="bar-track"><div class="bar-fill" style="--w:92%"><b>92%</b></div></div></div>
+        <div class="bar-row"><span>数据分析</span><div class="bar-track"><div class="bar-fill" style="--w:85%"><b>85%</b></div></div></div>
+      </div>
+
+      <div class="skill-col reveal" style="--d:.15s">
+        <h3>主修课程 <i>Courses</i></h3>
+        <div class="course-list">
+          <div class="course"><b>财经传播实务</b><span class="course-score">95</span></div>
+          <div class="course"><b>AI短视频创作与运营</b><span class="course-score">93</span></div>
+          <div class="course"><b>智能媒体制作与发布</b><span class="course-score">92</span></div>
+          <div class="course"><b>商业文化传播实践</b><span class="course-score">92</span></div>
+        </div>
+        <h3 class="mt">证书荣誉 <i>Honors</i></h3>
+        <div class="cert-tags">
+          <span>CET-6</span><span>碳资产管理师</span><span>大数据分析与应用培训证书</span><span>普通话二甲</span><span>校级一等奖学金</span>
+        </div>
+        <h3 class="mt">校园履历 <i>Campus</i></h3>
+        <ul class="campus-list">
+          <li>校辩论队领队 · 多项省级辩论奖项（信息检索与研判）</li>
+          <li>青年志愿者协会副部长 · 志愿时长 <b>340h</b></li>
+          <li>人文专硕党委组织委员 · 研究生招生办干事</li>
+        </ul>
+      </div>
+
+      <div class="skill-col reveal" style="--d:.25s">
+        <h3>软实力 <i>Soft Skills</i></h3>
+        <div class="soft-cloud">
+          <span class="tag tag-orange">故事化叙事</span>
+          <span class="tag tag-blue">跨部门协同</span>
+          <span class="tag tag-green">临场应变</span>
+          <span class="tag tag-coral">统筹闭环</span>
+          <span class="tag tag-blue">信息检索与研判</span>
+          <span class="tag tag-orange">团队协作</span>
+          <span class="tag tag-green">客户对接</span>
+          <span class="tag tag-coral">多平台运营</span>
+          <span class="tag tag-yellow">网感在线</span>
+        </div>
+        <div class="soft-quote reveal">
+          <p>「新闻于我而言，成为一种方法——勇敢地出发、观察周围、与世界交互、做利他的选项。」</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 6. 联系我 ======================= -->
+<section id="contact">
+  <div class="wm wm-yellow" data-parallax="0.16" aria-hidden="true">Thank You</div>
+  <svg class="squiggle sq-contact" data-parallax="0.08" viewBox="0 0 300 120" aria-hidden="true"><path d="M6 80 C 60 20, 120 120, 180 50 S 260 60, 294 90" fill="none" stroke="#F6C944" stroke-width="9" stroke-linecap="round"/></svg>
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <span class="sec-icon" aria-hidden="true">📮</span>
+      <h2>联系我</h2>
+      <p class="sec-sub">感谢观看 / Let's Create Together</p>
+    </header>
+
+    <div class="contact-grid">
+      <a class="contact-card reveal" style="--d:.05s" href="mailto:2545258776@qq.com">
+        <span class="cc-icon" aria-hidden="true">✉️</span>
+        <b>邮箱</b>
+        <span class="cc-val">2545258776@qq.com</span>
+        <span class="cc-hint">点击直接发邮件 →</span>
+      </a>
+      <button class="contact-card reveal" style="--d:.15s" type="button" id="copy-wechat" data-wechat="13512992132">
+        <span class="cc-icon" aria-hidden="true">💬</span>
+        <b>微信</b>
+        <span class="cc-val">13512992132</span>
+        <span class="cc-hint">点击复制微信号</span>
+      </button>
+      <a class="contact-card reveal" style="--d:.25s" href="tel:+8613512992132">
+        <span class="cc-icon" aria-hidden="true">📞</span>
+        <b>电话</b>
+        <span class="cc-val">+86 13512992132</span>
+        <span class="cc-hint">点击直接拨号 →</span>
+      </a>
+    </div>
+
+    <p class="contact-note reveal">期待与您一起，把下一个好故事做到现场 ✦</p>
+  </div>
+</section>
+</main>
+
+<footer id="footer">
+  <p>© 2026 史致远 · 个人作品集 <span>内容策划 × 媒体运营 × 现场执行</span></p>
+</footer>
+
+<!-- ======================= 项目详情模态框 ======================= -->
+<div class="modal" id="proj-modal" hidden>
+  <div class="modal-mask" data-close></div>
+  <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="pm-title">
+    <button class="modal-close" type="button" data-close aria-label="关闭详情">×</button>
+    <div class="modal-body" id="pm-body"><!-- JS 渲染 --></div>
+    <footer class="modal-foot">
+      <button class="mf-btn" type="button" id="pm-prev"><b>←</b> <span></span></button>
+      <button class="mf-btn mf-next" type="button" id="pm-next"><span></span> <b>→</b></button>
+    </footer>
+  </div>
+</div>
+
+<div id="toast" role="status">已复制微信号 ✦ 13512992132</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
