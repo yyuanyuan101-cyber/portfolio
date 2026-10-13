@@ -473,7 +473,7 @@
 
   // 导航高亮
   var navLinks = document.querySelectorAll(".nav-links a");
-  var sections = ["about", "work", "projects", "skills", "contact"].map(function (id) { return document.getElementById(id); });
+  var sections = ["about", "work", "projects", "academic", "skills", "contact"].map(function (id) { return document.getElementById(id); });
   var navObserver = new IntersectionObserver(function (entries) {
     entries.forEach(function (en) {
       if (en.isIntersecting) {
