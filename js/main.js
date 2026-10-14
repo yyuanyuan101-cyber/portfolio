@@ -72,8 +72,8 @@
       ],
       points: ["全部环节按台本顺序顺利完成，直播无重大事故"],
       images: [
-        { src: "assets/youku_stage.jpg", alt: "盛典直播现场" },
-        { src: "assets/youku_illus.jpg", alt: "盛典视觉物料" }
+        { src: "assets/youku_script.jpg", alt: "主持人台词台本节选" },
+        { src: "assets/youku_scripts.jpg", alt: "台本多版本迭代文件清单" }
       ]
     },
     {
@@ -105,8 +105,8 @@
       ],
       points: ["大型活动参与以及跨部门协作经验，可应用于会展业务的策划与执行"],
       images: [
-        { src: "assets/davos_stage.jpg", alt: "论坛开幕式现场" },
-        { src: "assets/davos_pass.jpg", alt: "证件统筹工作记录" }
+        { src: "assets/davos_volunteers.jpg", alt: "志愿者团队合影" },
+        { src: "assets/davos_venue.jpg", alt: "论坛主会场" }
       ]
     },
     {
